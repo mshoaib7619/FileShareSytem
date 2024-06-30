@@ -1,5 +1,5 @@
 {
-  "version": 2,
+  "version": 1,
   "builds": [
     {
       "src": "server/index.js",
@@ -9,12 +9,12 @@
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "/server/index.js"
+      "dest": "server/index.js"
     }
   ],
   "env": {
     "PORT": "8000",
     "MONGODB_URL": "mongodb+srv://shoaib7619:11665%40Shoaib@cluster0.fqnfm03.mongodb.net/fileSharing",
-    "SERVER_PATH": "http://localhost:8000"
+    "SERVER_PATH": "https://file-share-system.vercel.app"
   }
 }
